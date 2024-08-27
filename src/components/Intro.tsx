@@ -40,11 +40,14 @@ const Intro = () => {
 
                     </div>
                 </div>
+
+                <a href="https://github.com/koda-git" target="_blank" rel="noopener noreferrer">
                 <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                     <div className="rounded-full overflow-hidden bg-[#181818] w-500 h-400 lg:w-[400px] lg:h-[400px] relative">
                         <img src="https://avatars.githubusercontent.com/koda-git" alt="Avatar" className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full" width={320} height={320} />
                     </div>
                 </div>
+                </a>
             </div>
         </section >
     );
