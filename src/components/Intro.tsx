@@ -36,7 +36,7 @@ const Intro = () => {
                     </p>
                     <div>
                         <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 hover:bg-blue-200 text-white"> Reach me</button>
-                        <button className="px-1 py-1 w-full  sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white"> <span className="block bg-[#121212] hover:bg-blue-800 rounded-full px-5 py-2">Portfolio</span></button>
+                        <button className="px-1 py-1 w-full  sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white"> <span className="block bg-[#121212] hover:bg-blue-800 rounded-full px-5 py-2">My Projects</span></button>
 
                     </div>
                 </div>
