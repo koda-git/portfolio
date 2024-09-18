@@ -8,10 +8,13 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212] ">
       <NavBar />
-      <div className="container mx-auto px-12 py-4">
+      <div className="container mx-auto px-12 py-4 mt-16">
         <Intro/>
-        <div className="mt-15">
-          <Projects/>
+        <div className="mt-96">
+        <section id="projects" className="mt-16">
+        <Projects/>
+        </section>
+          
         </div>
       </div>
       <Footer></Footer>
