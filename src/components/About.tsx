@@ -2,11 +2,31 @@
 
 import React from "react";
 import {
-  FaPython, FaRust, FaJs, FaDocker, FaAws, FaLinux, FaHtml5, FaCss3Alt, FaWindows, FaApple,
+  FaPython,
+  FaRust,
+  FaJs,
+  FaDocker,
+  FaAws,
+  FaLinux,
+  FaHtml5,
+  FaCss3Alt,
+  FaWindows,
+  FaApple,
 } from "react-icons/fa";
 import {
-  SiTypescript, SiC, SiHaskell, SiGnubash, SiNextdotjs, SiTailwindcss, SiFlask,
-  SiKubernetes, SiGooglecloud, SiAnsible, SiJenkins, SiOpenbsd, SiRust
+  SiTypescript,
+  SiC,
+  SiHaskell,
+  SiGnubash,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiFlask,
+  SiKubernetes,
+  SiGooglecloud,
+  SiAnsible,
+  SiJenkins,
+  SiOpenbsd,
+  SiRust,
 } from "react-icons/si";
 
 const About = () => {
@@ -20,20 +40,26 @@ const About = () => {
             </span>
           </h2>
           <p className="text-[#ADB7BE] text-xl mt-16">
-            I'm Jason (Jaeho), a passionate Computer Science student and full-stack software engineer with over 5 years of experience.
+            I'm Jason (Jaeho), a passionate Computer Science student and
+            full-stack software engineer with over 5 years of experience.
           </p>
         </div>
 
         <div className="max-w-3xl mx-auto text-[#ADB7BE] text-lg">
           <p className="mb-6">
-            My journey began with building small applications and has grown into expertise in full-stack development, cloud computing, and DevOps. I love creating efficient, scalable solutions using technologies like Python, Rust, Docker, and Kubernetes.
+            My journey began with building small applications and has grown into
+            expertise in full-stack development, cloud computing, and DevOps. I
+            love creating efficient, scalable solutions using technologies like
+            Python, Rust, Docker, and Kubernetes.
           </p>
 
           <h3 className="text-white text-2xl font-bold mb-4">Tech Stack</h3>
-          
+
           {/* Languages */}
           <div className="mb-6">
-            <h4 className="text-white text-xl font-semibold mb-4">Languages:</h4>
+            <h4 className="text-white text-xl font-semibold mb-4">
+              Languages:
+            </h4>
             <ul className="flex flex-wrap space-x-8">
               <li className="flex flex-col items-center">
                 <FaPython className="text-yellow-500" size={32} />
@@ -68,7 +94,9 @@ const About = () => {
 
           {/* Web Development */}
           <div className="mb-6">
-            <h4 className="text-white text-xl font-semibold mb-4">Web Development:</h4>
+            <h4 className="text-white text-xl font-semibold mb-4">
+              Web Development:
+            </h4>
             <ul className="flex flex-wrap space-x-8">
               <li className="flex flex-col items-center">
                 <FaHtml5 className="text-orange-500" size={32} />
@@ -95,7 +123,9 @@ const About = () => {
 
           {/* Cloud/DevOps */}
           <div className="mb-6">
-            <h4 className="text-white text-xl font-semibold mb-4">Cloud/DevOps:</h4>
+            <h4 className="text-white text-xl font-semibold mb-4">
+              Cloud/DevOps:
+            </h4>
             <ul className="flex flex-wrap space-x-8">
               <li className="flex flex-col items-center">
                 <FaDocker className="text-blue-600" size={32} />
@@ -126,7 +156,9 @@ const About = () => {
 
           {/* Operating Systems */}
           <div className="mb-6">
-            <h4 className="text-white text-xl font-semibold mb-4">Operating Systems:</h4>
+            <h4 className="text-white text-xl font-semibold mb-4">
+              Operating Systems:
+            </h4>
             <ul className="flex flex-wrap space-x-8">
               <li className="flex flex-col items-center">
                 <FaLinux className="text-yellow-500" size={32} />
@@ -149,10 +181,16 @@ const About = () => {
 
           <h3 className="text-white text-2xl font-bold mb-4">Experience</h3>
           <p className="mb-6">
-            Currently, I am a student at McMaster University, specializing in databases, algorithms, and machine learning. I have led multiple projects, including Shuttletrak—a real-time shuttle tracking system, and Crust—a Rust-based hobby compiler.
+            Currently, I am a student at McMaster University, specializing in
+            databases, algorithms, and machine learning. I have led multiple
+            projects, including Shuttletrak—a real-time shuttle tracking system,
+            and Crust—a Rust-based hobby compiler.
           </p>
           <p>
-            Beyond academics, I am actively involved in self-hosting projects, managing personal cloud infrastructure using Kubernetes and Docker. I enjoy solving complex technical challenges and continuously growing my knowledge.
+            Beyond academics, I am actively involved in self-hosting projects,
+            managing personal cloud infrastructure using Kubernetes and Docker.
+            I enjoy solving complex technical challenges and continuously
+            growing my knowledge.
           </p>
         </div>
       </div>

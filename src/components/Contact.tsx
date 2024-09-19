@@ -14,7 +14,8 @@ const Contact = () => {
             </span>
           </h2>
           <p className="text-[#ADB7BE] text-lg mt-16">
-            I’d love to hear from you! Reach out through any of the following platforms:
+            I’d love to hear from you! Reach out through any of the following
+            platforms:
           </p>
         </div>
 
