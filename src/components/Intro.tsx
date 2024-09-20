@@ -13,32 +13,33 @@ const Intro = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">
               Hello I'm{" "}
             </span>
-            <br></br>
-            <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Jason",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "a CS Student",
-                1000,
-                "an Aspiring Developer",
-                1000,
-                "and a Passionate Learner",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+            <br />
+            <div className="relative min-h-[120px] sm:min-h-[140px] lg:min-h-[160px]">
+              <TypeAnimation
+                sequence={[
+                  "Jason",
+                  1000,
+                  "a CS Student",
+                  1000,
+                  "an Aspiring Developer",
+                  1000,
+                  "and a Passionate Learner",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
+            </div>
           </h1>
 
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl">
             With a love for all things tech, I’m constantly exploring new tools,
             languages, and systems. My goal is to leverage technology to solve
             real-world problems and make a meaningful impact.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 hover:bg-blue-200 text-white">
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 hover:bg-blue-200 text-white">
               <Link href="/contact">Reach me</Link>
             </button>
             <button
@@ -47,7 +48,7 @@ const Intro = () => {
                   .getElementById("projects")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className="px-1 py-1 w-full  sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white"
+              className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white"
             >
               {" "}
               <span className="block bg-[#121212] hover:bg-blue-800 rounded-full px-5 py-2">
