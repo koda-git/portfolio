@@ -1,12 +1,10 @@
-"use client";
-
 import React from "react";
 import { FaLinkedin, FaEnvelope, FaDiscord } from "react-icons/fa"; // Import icons
 
 const Contact = () => {
   return (
     <section className="min-h-screen bg-[#121212] py-16">
-      <div className="container mx-auto px-12">
+      <div className="container mx-auto px-4 sm:px-8">
         <div className="text-center mb-12">
           <h2 className="text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">
@@ -27,9 +25,9 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/cs-jaeho-han/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#ADB7BE] text-lg hover:text-white"
+                className="text-[#ADB7BE] text-lg hover:text-white break-all"
               >
-                LinkedIn: Jaeho Han
+                LinkedIn
               </a>
             </li>
 
@@ -37,15 +35,15 @@ const Contact = () => {
               <FaEnvelope className="text-blue-600" size={32} />
               <a
                 href="mailto:han39@mcmaster.ca"
-                className="text-[#ADB7BE] text-lg hover:text-white"
+                className="text-[#ADB7BE] text-lg hover:text-white break-all"
               >
-                Email: han39@mcmaster.ca
+                Email
               </a>
             </li>
 
             <li className="flex items-center space-x-4">
               <FaDiscord className="text-blue-600" size={32} />
-              <span className="text-[#ADB7BE] text-lg">Discord: echo321</span>
+              <span className="text-[#ADB7BE] text-lg break-all">echo321</span>
             </li>
           </ul>
         </div>
