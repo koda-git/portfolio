@@ -37,7 +37,7 @@ const Contact = () => {
                 href="mailto:han39@mcmaster.ca"
                 className="text-[#ADB7BE] text-lg hover:text-white break-all"
               >
-                Email
+                Email me
               </a>
             </li>
 

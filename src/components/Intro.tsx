@@ -39,9 +39,11 @@ const Intro = () => {
             real-world problems and make a meaningful impact.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 hover:bg-blue-200 text-white">
-              <Link href="/contact">Reach me</Link>
-            </button>
+            <Link href="/contact">
+              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 hover:bg-blue-200 text-white">
+                Reach me
+              </button>
+            </Link>
             <button
               onClick={() =>
                 document
