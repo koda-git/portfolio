@@ -63,7 +63,7 @@ const Intro = () => {
               <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white">
               {" "}
               <span className="block bg-[#121212] hover:bg-blue-800 rounded-full px-5 py-2">
-                My Blog!
+                My Blog
               </span>
               </button>
             </Link>
