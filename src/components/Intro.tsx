@@ -9,7 +9,7 @@ const Intro = () => {
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+          <h1 className="font-display text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">
               Hello I'm{" "}
             </span>
@@ -33,30 +33,40 @@ const Intro = () => {
             </div>
           </h1>
 
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl">
+          <p className="font-medium text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl">
             With a love for all things tech, I’m constantly exploring new tools,
             languages, and systems. My goal is to leverage technology to solve
             real-world problems and make a meaningful impact.
           </p>
-          <div>
+          <div className="font-display">
             <Link href="/contact">
               <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 hover:bg-blue-200 text-white">
                 Reach me
               </button>
             </Link>
+
             <button
               onClick={() =>
                 document
                   .getElementById("projects")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white"
+              className="mr-4 mb-4 px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white"
             >
               {" "}
               <span className="block bg-[#121212] hover:bg-blue-800 rounded-full px-5 py-2">
                 My Projects
               </span>
             </button>
+
+            <Link href="https://blog.hewwo.ca">
+              <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white">
+              {" "}
+              <span className="block bg-[#121212] hover:bg-blue-800 rounded-full px-5 py-2">
+                My Blog!
+              </span>
+              </button>
+            </Link>
           </div>
         </div>
 

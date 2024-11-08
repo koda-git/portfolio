@@ -12,7 +12,7 @@ const NavBar = () => {
           👋
         </Link>
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 ">
+          <ul className="font-display flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 ">
             <li className="nav-item">
               <Link href="/" passHref>
                 <span className="text-white text-lg md:text-xl font-semibold">
@@ -31,6 +31,13 @@ const NavBar = () => {
               <Link href="/contact" passHref>
                 <span className="text-white text-lg md:text-xl font-semibold">
                   Contact
+                </span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="https://blog.hewwo.ca" passHref>
+                <span className="text-white text-lg md:text-xl font-semibold">
+                  Blog
                 </span>
               </Link>
             </li>

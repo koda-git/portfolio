@@ -6,8 +6,8 @@ const Contact = () => {
     <section className="min-h-screen bg-[#121212] py-16">
       <div className="container mx-auto px-4 sm:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">
+          <h2 className="font-display text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+            <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-blue-400">
               Contact Me
             </span>
           </h2>

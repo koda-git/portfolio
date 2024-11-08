@@ -34,7 +34,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-12 text-center mb-8">
           <h2 className="text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-white mb-4">My Projects</span>
+            <span className="font-display text-white mb-4">My Projects</span>
           </h2>
         </div>
 

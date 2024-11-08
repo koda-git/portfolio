@@ -32,18 +32,23 @@ import {
 } from "react-icons/si";
 
 const About = () => {
+  const currentYear = new Date().getFullYear();
+  const yearsOfExperience = currentYear - 2019;
   return (
     <section className="min-h-screen bg-[#121212] py-16">
       <div className="container mx-auto px-12">
         <div className="text-center mb-12">
-          <h2 className="text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">
+
+
+          <h2 className="font-display text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-400">
               About Me
             </span>
           </h2>
-          <p className="text-[#ADB7BE] text-xl mt-16">
-            I'm Jason (Jaeho), a passionate Computer Science student and
-            full-stack software engineer with over 5 years of experience.
+
+
+          <p className="font-medium text-[#ADB7BE] text-xl mt-16">
+            I'm Jason, a passionate Computer Science student with over {yearsOfExperience} years of experience.
           </p>  
         </div>
 
@@ -55,7 +60,7 @@ const About = () => {
             Python, Rust, Docker, and Kubernetes.
           </p>
 
-          <h3 className="text-white text-2xl font-bold mb-4">Tech Stack</h3>
+          <h3 className="font-display text-white text-2xl font-bold mb-4">Tech Stack</h3>
           <div className="container mx-auto px-4 sm:px-8 lg:px-16 py-8">
             {/* Languages */}
             <div className="mb-6">
