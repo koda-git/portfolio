@@ -38,7 +38,7 @@ const Intro = () => {
             languages, and systems. My goal is to leverage technology to solve
             real-world problems and make a meaningful impact.
           </p>
-          <div className="font-display">
+          <div className="font-sans">
             <Link href="/contact">
               <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 hover:bg-blue-200 text-white">
                 Reach me
@@ -61,10 +61,10 @@ const Intro = () => {
 
             <Link href="https://blog.hewwo.ca">
               <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-50 hover:bg-blue-800 text-white">
-              {" "}
-              <span className="block bg-[#121212] hover:bg-blue-800 rounded-full px-5 py-2">
-                My Blog
-              </span>
+                {" "}
+                <span className="block bg-[#121212] hover:bg-blue-800 rounded-full px-5 py-2">
+                  My Blog
+                </span>
               </button>
             </Link>
           </div>
@@ -75,8 +75,8 @@ const Intro = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-            <div className="rounded-full overflow-hidden bg-[#181818] w-500 h-400 lg:w-[400px] lg:h-[400px] relative">
+          <div className="col-span-5 place-self-center mt-4 lg:mt-0 relative">
+            <div className="rounded-full overflow-hidden bg-[#181818] w-500 h-400 lg:w-[400px] lg:h-[400px] absolute">
               <img
                 src="https://avatars.githubusercontent.com/koda-git"
                 alt="Avatar"
