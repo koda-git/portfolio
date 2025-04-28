@@ -35,7 +35,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="https://blog.hewwo.ca" passHref>
+              <Link href="https://blog.jaeho.me" passHref>
                 <span className="text-white text-lg md:text-xl font-semibold">
                   Blog
                 </span>
