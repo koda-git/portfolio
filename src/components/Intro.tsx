@@ -35,7 +35,7 @@ const Intro = () => {
             </div>
           </h1>
 
-          <p className="font-medium text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl">
+          <p className="font-medium text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl max-w-2xl mx-auto text-center">
             I'm a Computer Science student at McMaster University, focused on building scalable systems and applications.
             From full-stack development to machine learning workflows, I enjoy solving real-world technical challenges.
             Always learning, optimizing, and shipping.
