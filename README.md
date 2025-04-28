@@ -2,6 +2,8 @@
 
 This is a portfolio website, built with [Next.js](https://nextjs.org/), [React](https://react.dev/), and [Tailwind CSS](https://tailwindcss.com/).
 
+Currently hosted @ [jaeho.me](https://jaeho.me)
+
 Deployed via **GitHub Pages** using GitHub Actions. Previously deployed with K3s locally and proxied through CF.
 
 ---
