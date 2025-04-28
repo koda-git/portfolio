@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
         <a href="/contact" className="hover:underline">
           Contact
         </a>
-        <a href="https://blog.hewwo.ca" className="hover:underline">
+        <a href="https://blog.jaeho.me" className="hover:underline">
           Blog
         </a>
       </div>
