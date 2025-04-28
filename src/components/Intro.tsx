@@ -36,9 +36,8 @@ const Intro = () => {
           </h1>
 
           <p className="font-medium text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl">
-            With a love for all things tech, I’m constantly exploring new tools,
-            languages, and systems. My goal is to leverage technology to solve
-            real-world problems and make a meaningful impact.
+            Passionate about building systems and solving real-world challenges through technology.
+            I focus on creating practical solutions by exploring new tools, frameworks, and infrastructure approaches.
           </p>
           <div className="font-sans">
             <Link href="/contact">
