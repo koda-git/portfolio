@@ -1,4 +1,4 @@
-name: Deploy Next.js site to Pages
+name: Deploy Next.js site to Pages (PNPM)
 
 on:
   push:
@@ -27,13 +27,16 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
-      - name: Install pnpm
+      - name: Install pnpm globally
         run: npm install -g pnpm
+
+      - name: Add pnpm to PATH
+        run: echo "${{ github.workspace }}/node_modules/.bin" >> $GITHUB_PATH
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
         with:
           static_site_generator: next
