@@ -1,4 +1,4 @@
-# 📚 Portfolio Website
+# Portfolio Website
 
 This is a portfolio website, built with [Next.js](https://nextjs.org/), [React](https://react.dev/), and [Tailwind CSS](https://tailwindcss.com/).
 
