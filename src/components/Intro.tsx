@@ -11,19 +11,21 @@ const Intro = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="font-display text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">
-              Hello I'm{" "}
+              I'm Jaeho{" "}
             </span>
             <br />
             <div className="relative min-h-[120px] sm:min-h-[140px] lg:min-h-[160px]">
               <TypeAnimation
                 sequence={[
-                  "Jason",
+                  "a Computer Science Student",
                   1000,
-                  "a CS Student",
+                  "a Systems Developer",
                   1000,
-                  "an Aspiring Developer",
+                  "a Machine Learning Practitioner",
                   1000,
-                  "and a Passionate Learner",
+                  "a Cloud & DevOps Enthusiast",
+                  1000,
+                  "a Builder of Real-World Solutions",
                   1000,
                 ]}
                 wrapper="span"
