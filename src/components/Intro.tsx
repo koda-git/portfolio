@@ -21,7 +21,7 @@ const Intro = () => {
                   1000,
                   "Systems & Cloud Developer",
                   1000,
-                  "Systems & Cloud Developer",
+                  "an ML-Enabled Systems Engineer",
                   1000,
                   "Distributed Systems Enthusiast",
                   1000,
