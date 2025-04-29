@@ -19,13 +19,13 @@ const Intro = () => {
                 sequence={[
                   "a Computer Science Student",
                   1000,
-                  "a Systems Developer",
+                  "Systems & Cloud Developer",
                   1000,
-                  "a Machine Learning Practitioner",
+                  "Systems & Cloud Developer",
                   1000,
-                  "a Cloud & DevOps Enthusiast",
+                  "Distributed Systems Enthusiast",
                   1000,
-                  "a Builder of Real-World Solutions",
+                  "Developer Who Builds at Scale",
                   1000,
                 ]}
                 wrapper="span"
