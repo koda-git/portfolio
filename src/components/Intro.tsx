@@ -36,9 +36,7 @@ const Intro = () => {
           </h1>
 
           <p className="font-medium text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl">
-            I'm a Computer Science student at McMaster University, building scalable systems and applications.
-            From full-stack development to machine learning workflows, I focus on solving real-world challenges.
-            Always learning, optimizing, and shipping.
+           Computer Science student at McMaster University, building backend systems, full-stack applications, and exploring cloud-native and ML technologies.
           </p>
           <div className="font-sans">
             <Link href="/contact">
