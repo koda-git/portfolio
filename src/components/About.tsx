@@ -2,40 +2,21 @@
 
 import React from "react";
 import {
-  FaPython,
-  FaRust,
-  FaJs,
-  FaDocker,
-  FaAws,
-  FaLinux,
-  FaHtml5,
-  FaCss3Alt,
-  FaWindows,
-  FaApple,
-  FaReact,
-  FaJava,
+  FaPython, FaJava, FaLinux, FaWindows, FaApple, FaReact, FaDocker, FaAws, FaHtml5, FaCss3Alt, FaGithub,
 } from "react-icons/fa";
 import {
-  SiTypescript,
-  SiC,
-  SiHaskell,
-  SiGnubash,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiFlask,
-  SiKubernetes,
-  SiGooglecloud,
-  SiAnsible,
-  SiJenkins,
-  SiOpenbsd,
-  SiRust,
+  SiRust, SiC, SiHaskell, SiTailwindcss, SiNextdotjs, SiTypescript, SiGnubash,
+  SiFlask, SiFlutter, SiDart, SiMariadb, SiSqlite, SiApachetomcat,
+  SiAnsible, SiKubernetes, SiNixos, SiUnraid, SiGooglecloud, SiOpenbsd,
+  SiEspressif, SiRaspberrypi, SiPostgresql
 } from "react-icons/si";
+
 
 const About = () => {
   const currentYear = new Date().getFullYear();
   const yearsOfExperience = currentYear - 2019;
   return (
-    <section className="min-h-screen bg-[#121212] py-16">
+    <section className="min-h-screen bg-[#121212] py-3">
       <div className="container mx-auto px-12">
         <div className="text-center mb-12">
 
@@ -48,8 +29,8 @@ const About = () => {
 
 
           <p className="font-medium text-[#ADB7BE] text-xl mt-16">
-            I'm Jason, a passionate Computer Science student with over {yearsOfExperience} years of experience.
-          </p>  
+            I'm Jaeho, a Computer Science student with over {yearsOfExperience} years of software development experience.
+          </p>
         </div>
 
         <div className="max-w-3xl mx-auto text-[#ADB7BE] text-lg">
@@ -85,34 +66,22 @@ const About = () => {
                   <span className="text-sm text-white mt-2">C</span>
                 </li>
                 <li className="flex flex-col items-center">
-                  <SiHaskell className="text-blue-600" size={32} />
-                  <span className="text-sm text-white mt-2">Haskell</span>
-                </li>
-                <li className="flex flex-col items-center">
                   <SiGnubash className="text-green-500" size={32} />
                   <span className="text-sm text-white mt-2">Bash</span>
+                </li>
+                <li className="flex flex-col items-center">
+                  <SiHaskell className="text-blue-600" size={32} />
+                  <span className="text-sm text-white mt-2">Haskell</span>
                 </li>
               </ul>
             </div>
 
-            {/* Web Development */}
+            {/* Web & App Frameworks */}
             <div className="mb-6">
               <h4 className="text-white text-lg sm:text-xl font-semibold mb-4">
-                Web Development:
+                Web & App Development:
               </h4>
               <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-4">
-                <li className="flex flex-col items-center">
-                  <FaHtml5 className="text-orange-500" size={32} />
-                  <span className="text-sm text-white mt-2">HTML</span>
-                </li>
-                <li className="flex flex-col items-center">
-                  <FaCss3Alt className="text-blue-500" size={32} />
-                  <span className="text-sm text-white mt-2">CSS</span>
-                </li>
-                <li className="flex flex-col items-center">
-                  <SiTypescript className="text-blue-500" size={32} />
-                  <span className="text-sm text-white mt-2">TypeScript</span>
-                </li>
                 <li className="flex flex-col items-center">
                   <SiNextdotjs className="text-white" size={32} />
                   <span className="text-sm text-white mt-2">Next.js</span>
@@ -129,13 +98,46 @@ const About = () => {
                   <SiFlask className="text-gray-400" size={32} />
                   <span className="text-sm text-white mt-2">Flask</span>
                 </li>
+                <li className="flex flex-col items-center">
+                  <SiFlutter className="text-sky-400" size={32} />
+                  <span className="text-sm text-white mt-2">Flutter</span>
+                </li>
+                <li className="flex flex-col items-center">
+                  <SiDart className="text-blue-500" size={32} />
+                  <span className="text-sm text-white mt-2">Dart</span>
+                </li>
               </ul>
             </div>
 
-            {/* Cloud/DevOps */}
+            {/* Backend & Databases */}
             <div className="mb-6">
               <h4 className="text-white text-lg sm:text-xl font-semibold mb-4">
-                Cloud/DevOps:
+                Backend & Databases:
+              </h4>
+              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-4">
+                <li className="flex flex-col items-center">
+                  <SiMariadb className="text-sky-600" size={32} />
+                  <span className="text-sm text-white mt-2">MariaDB</span>
+                </li>
+                <li className="flex flex-col items-center">
+                  <SiSqlite className="text-blue-400" size={32} />
+                  <span className="text-sm text-white mt-2">SQLite</span>
+                </li>
+                <li className="flex flex-col items-center">
+                  <SiApachetomcat className="text-yellow-500" size={32} />
+                  <span className="text-sm text-white mt-2">Tomcat</span>
+                </li>
+                <li className="flex flex-col items-center">
+                  <SiPostgresql className="text-blue-400" size={32} />
+                  <span className="text-sm text-white mt-2">PostgreSQL</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Infrastructure & Tooling */}
+            <div className="mb-6">
+              <h4 className="text-white text-lg sm:text-xl font-semibold mb-4">
+                Infrastructure & Tooling:
               </h4>
               <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-4">
                 <li className="flex flex-col items-center">
@@ -147,28 +149,28 @@ const About = () => {
                   <span className="text-sm text-white mt-2">Kubernetes</span>
                 </li>
                 <li className="flex flex-col items-center">
-                  <FaAws className="text-orange-500" size={32} />
-                  <span className="text-sm text-white mt-2">AWS</span>
-                </li>
-                <li className="flex flex-col items-center">
-                  <SiGooglecloud className="text-blue-300" size={32} />
-                  <span className="text-sm text-white mt-2">Google Cloud</span>
-                </li>
-                <li className="flex flex-col items-center">
                   <SiAnsible className="text-red-500" size={32} />
                   <span className="text-sm text-white mt-2">Ansible</span>
                 </li>
                 <li className="flex flex-col items-center">
-                  <SiJenkins className="text-red-600" size={32} />
-                  <span className="text-sm text-white mt-2">Jenkins</span>
+                  <SiNixos className="text-gray-300" size={32} />
+                  <span className="text-sm text-white mt-2">NixOS</span>
+                </li>
+                <li className="flex flex-col items-center">
+                  <SiUnraid className="text-orange-500" size={32} />
+                  <span className="text-sm text-white mt-2">UnRAID</span>
+                </li>
+                <li className="flex flex-col items-center">
+                  <FaGithub className="text-white" size={32} />
+                  <span className="text-sm text-white mt-2">GitHub Pages</span>
                 </li>
               </ul>
             </div>
 
-            {/* Operating Systems */}
+            {/* OS & Platforms */}
             <div className="mb-6">
               <h4 className="text-white text-lg sm:text-xl font-semibold mb-4">
-                Operating Systems:
+                OS & Platforms:
               </h4>
               <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-4">
                 <li className="flex flex-col items-center">
@@ -187,6 +189,14 @@ const About = () => {
                   <SiOpenbsd className="text-green-500" size={32} />
                   <span className="text-sm text-white mt-2">OpenBSD</span>
                 </li>
+                <li className="flex flex-col items-center">
+                  <SiEspressif className="text-orange-400" size={32} />
+                  <span className="text-sm text-white mt-2">ESP32</span>
+                </li>
+                <li className="flex flex-col items-center">
+                  <SiRaspberrypi className="text-pink-500" size={32} />
+                  <span className="text-sm text-white mt-2">Raspberry Pi</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -194,9 +204,7 @@ const About = () => {
           <h3 className="text-white text-2xl font-bold mb-4">Experience</h3>
           <p className="mb-6">
             Currently, I am a student at McMaster University, specializing in
-            databases, algorithms, and machine learning. I have led multiple
-            projects, including Shuttletrak—a real-time shuttle tracking system,
-            and Crust—a Rust-based hobby compiler.
+            databases, algorithms, and machine learning.
           </p>
           <p>
             Beyond academics, I am actively involved in self-hosting projects,

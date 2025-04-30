@@ -3,7 +3,7 @@ import { FaLinkedin, FaEnvelope, FaDiscord } from "react-icons/fa"; // Import ic
 
 const Contact = () => {
   return (
-    <section className="min-h-screen bg-[#121212] py-16">
+    <section className="min-h-screen bg-[#121212]">
       <div className="container mx-auto px-4 sm:px-8">
         <div className="text-center mb-12">
           <h2 className="font-display text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -34,7 +34,7 @@ const Contact = () => {
             <li className="flex items-center space-x-4">
               <FaEnvelope className="text-blue-600" size={32} />
               <a
-                href="mailto:han39@mcmaster.ca"
+                href="mailto:reachme@jaeho.me"
                 className="text-[#ADB7BE] text-lg hover:text-white break-all"
               >
                 Email me
