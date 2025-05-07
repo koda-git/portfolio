@@ -1,6 +1,7 @@
 import React from "react";
 
-const currentYear = new Date().getFullYear();
+const Footer: React.FC = () => {
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className=" font-display text-white py-4 mt-auto">
@@ -14,16 +15,26 @@ const currentYear = new Date().getFullYear();
         <a href="/contact" className="hover:underline">
           Contact
         </a>
-        <a href="https://blog.hewwo.ca" className="hover:underline">
         <a href="https://blog.jaeho.me" className="hover:underline">
           Blog
         </a>
       </div>
-      <div className="text-center text-sm">&copy; {currentYear} Meow Meow</div>
+      <div className="text-center text-sm">
+        &copy; {currentYear}{" "}
+        <a
+          href="https://github.com/koda-git"
+          className="hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          koda-git
+        </a>
+      </div>
     </footer>
   );
-};
+
+}
 
 export default Footer;
 
-  
+
