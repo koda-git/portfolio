@@ -18,8 +18,17 @@ const Footer: React.FC = () => {
         <a href="https://blog.jaeho.me" className="hover:underline">
           Blog
         </a>
+    <div className="text-center text-sm">
+        &copy; {currentYear}{" "}
+        <a
+          href="https://github.com/koda-git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          koda-git
+        </a>
       </div>
-      <div className="text-center text-sm">&copy; {currentYear} Meow Meow</div>
     </footer>
   );
 };
